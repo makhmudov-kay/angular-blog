@@ -1,0 +1,137 @@
+[debug] [2022-08-12T12:47:16.906Z] ----------------------------------------------------------------------
+[debug] [2022-08-12T12:47:16.908Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-08-12T12:47:16.908Z] CLI Version:   11.6.0
+[debug] [2022-08-12T12:47:16.908Z] Platform:      win32
+[debug] [2022-08-12T12:47:16.908Z] Node Version:  v16.13.2
+[debug] [2022-08-12T12:47:16.909Z] Time:          Fri Aug 12 2022 17:47:16 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2022-08-12T12:47:16.909Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-12T12:47:16.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-12T12:47:16.919Z] > authorizing via signed-in user (verwolf969@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\tutorial\angular-blog
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-12T12:47:50.781Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-12T12:47:51.579Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-12T12:47:51.579Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project angular-blog-c3f95 (angular-blog) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-12T12:48:07.736Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-12T12:48:08.025Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-12T12:48:08.025Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] +  Wrote y/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\tutorial\angular-blog 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=457434783&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-12T12:48:16.076Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-12T12:48:16.076Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-12T12:48:16.661Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-12T12:48:16.661Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-12T12:48:16.681Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-12T12:48:17.376Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-12T12:48:17.376Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"makhmudov-kay","id":72617688,"node_id":"MDQ6VXNlcjcyNjE3Njg4","avatar_url":"https://avatars.githubusercontent.com/u/72617688?v=4","gravatar_id":"","url":"https://api.github.com/users/makhmudov-kay","html_url":"https://github.com/makhmudov-kay","followers_url":"https://api.github.com/users/makhmudov-kay/followers","following_url":"https://api.github.com/users/makhmudov-kay/following{/other_user}","gists_url":"https://api.github.com/users/makhmudov-kay/gists{/gist_id}","starred_url":"https://api.github.com/users/makhmudov-kay/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/makhmudov-kay/subscriptions","organizations_url":"https://api.github.com/users/makhmudov-kay/orgs","repos_url":"https://api.github.com/users/makhmudov-kay/repos","events_url":"https://api.github.com/users/makhmudov-kay/events{/privacy}","received_events_url":"https://api.github.com/users/makhmudov-kay/received_events","type":"User","site_admin":false,"name":"Kayrat","company":null,"blog":"","location":"Uzbekistan, Gazalkent","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":41,"public_gists":0,"followers":0,"following":1,"created_at":"2020-10-09T15:01:38Z","updated_at":"2022-08-12T12:48:10Z","private_gists":0,"total_private_repos":6,"owned_private_repos":6,"disk_usage":133082,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as makhmudov-kay 
+[info] 
+[debug] [2022-08-12T12:48:30.000Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-08-12T12:48:30.456Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-08-12T12:48:30.456Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-12T12:48:37.040Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-08-12T12:48:37.460Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-08-12T12:48:37.460Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-12T12:48:45.549Z] >>> [apiv2][query] GET https://api.github.com/repos/Y/actions/secrets/public-key type=owner
+[debug] [2022-08-12T12:48:45.976Z] <<< [apiv2][status] GET https://api.github.com/repos/Y/actions/secrets/public-key 404
+[debug] [2022-08-12T12:48:45.977Z] <<< [apiv2][body] GET https://api.github.com/repos/Y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-12T12:48:46.994Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-12T12:48:47.496Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-12T12:48:47.497Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-12T12:48:48.349Z] >>> [apiv2][query] GET https://api.github.com/repos/n/actions/secrets/public-key type=owner
+[debug] [2022-08-12T12:48:48.800Z] <<< [apiv2][status] GET https://api.github.com/repos/n/actions/secrets/public-key 404
+[debug] [2022-08-12T12:48:48.800Z] <<< [apiv2][body] GET https://api.github.com/repos/n/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-12T12:49:26.212Z] ----------------------------------------------------------------------
+[debug] [2022-08-12T12:49:26.214Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-08-12T12:49:26.214Z] CLI Version:   11.6.0
+[debug] [2022-08-12T12:49:26.214Z] Platform:      win32
+[debug] [2022-08-12T12:49:26.215Z] Node Version:  v16.13.2
+[debug] [2022-08-12T12:49:26.215Z] Time:          Fri Aug 12 2022 17:49:26 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2022-08-12T12:49:26.216Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-12T12:49:26.224Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-12T12:49:26.224Z] > authorizing via signed-in user (verwolf969@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\tutorial\angular-blog
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-12T12:49:30.445Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-12T12:49:31.103Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-12T12:49:31.103Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project angular-blog-c3f95 (angular-blog) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-12T12:50:01.281Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-12T12:50:01.599Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-12T12:50:01.600Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of dist/angular-blog/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\tutorial\angular-blog 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=73659129&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-12T12:50:05.652Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-12T12:50:05.653Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-12T12:50:06.685Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-12T12:50:06.685Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-12T12:50:06.692Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-12T12:50:07.275Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-12T12:50:07.276Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"makhmudov-kay","id":72617688,"node_id":"MDQ6VXNlcjcyNjE3Njg4","avatar_url":"https://avatars.githubusercontent.com/u/72617688?v=4","gravatar_id":"","url":"https://api.github.com/users/makhmudov-kay","html_url":"https://github.com/makhmudov-kay","followers_url":"https://api.github.com/users/makhmudov-kay/followers","following_url":"https://api.github.com/users/makhmudov-kay/following{/other_user}","gists_url":"https://api.github.com/users/makhmudov-kay/gists{/gist_id}","starred_url":"https://api.github.com/users/makhmudov-kay/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/makhmudov-kay/subscriptions","organizations_url":"https://api.github.com/users/makhmudov-kay/orgs","repos_url":"https://api.github.com/users/makhmudov-kay/repos","events_url":"https://api.github.com/users/makhmudov-kay/events{/privacy}","received_events_url":"https://api.github.com/users/makhmudov-kay/received_events","type":"User","site_admin":false,"name":"Kayrat","company":null,"blog":"","location":"Uzbekistan, Gazalkent","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":41,"public_gists":0,"followers":0,"following":1,"created_at":"2020-10-09T15:01:38Z","updated_at":"2022-08-12T12:48:10Z","private_gists":0,"total_private_repos":6,"owned_private_repos":6,"disk_usage":133082,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as makhmudov-kay 
+[info] 
